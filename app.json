@@ -1,0 +1,21 @@
+{
+    "name": "man",
+    "description": "Deploy man on Heroku.",
+    "keywords": ["man"],
+    "env": {
+        "XRAY_CONFIG": {
+            "description": "Xray Config(Json)",
+            "value": ""
+        },
+        "ALIST_CONFIG": {
+            "description": "Alist Config(Json)",
+            "value": ""
+        },
+        "NGINX_CONFIG": {
+            "description": "NGINX_CONFIG(Json)",
+            "value": ""
+        }
+    },
+    "repository": "https://github.com/RhineLT/manga-image-translator-heroku",
+    "stack": "container"
+}
